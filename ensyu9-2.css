@@ -69,12 +69,38 @@ footer{
 @media screen and (max-width:768px){
   main{
     display: block;
-    margin: 50px 0;
+    margin: 50px auto;
     width: 100%;
   }
 
   .main-contents{
     width: 90%;
     margin: 0 auto 20px auto;
+    padding: 10px;
+  }
+
+  .main-image1{
+    margin: 0px;
+  }
+
+  .main-image2{
+    margin: 0px;
+  }
+
+  .main-image3{
+    margin: 0px;
+  }
+
+  .main-top-text{
+    left: 0;
+    top: 0;
+  }
+
+  h3{
+    padding: 15px 0px 5px 0px;
+  }
+
+  p{
+    padding: 0
   }
 }
